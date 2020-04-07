@@ -1,3 +1,5 @@
+%author
+%reviewed
 v_pos = [7000;0;0];     %km
 v_pos1 = [7000;0;0];    %duplicate variable kept for calculating error
 MU = 3.986004418*1.0e+05; %km^3/s^-2
