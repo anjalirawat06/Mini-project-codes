@@ -129,7 +129,9 @@ Takes in arguments as sent by propagator (v_r) (the arguments of RK4 method like
 **Formulae used:**
 ----
 dvx/dt = (-MU/r^3 - ((3*J2*MU*R^2) / (2*r^5)) * (1 - (5*z^2)/r^2 )) * x
+
 dvy/dt = (-MU/r^3 - ((3*J2*MU*R^2) / (2*r^5)) * (1 - (5*z^2)/r^2 )) * y
+
 dvz/dt = (-MU/r^3 - ((3*J2*MU*R^2) / (2*r^5)) * (3 - (5*z^2)/r^2 )) * z
 
 [Link]https://drive.google.com/drive/folders/1uoC_6IF1Obe04ucFTo9ULzMcTpB9GBss?usp=sharing
