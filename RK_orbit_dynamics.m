@@ -1,4 +1,4 @@
-function v_a = pr_f(v_r)
+function v_a = RK_orbit_dynamics(v_r)
     MU = 3.986004418*1.0e+05;    %km^3/s^-2
     r = norm(v_r);               %km
     J2 = 1.081874*1.0e-03; 
