@@ -1,6 +1,6 @@
 # Mini-project-codes
 
-## Function_1 name: main_J2_propagator
+## Function_1 main_J2_propagator
 -----
 
 **Code Author:** Anjali Rawat
@@ -57,7 +57,7 @@ error_v:(float) - error in velocity
 Prints the final velocity and final position along with their respective errors.
 
 ----
-## Function_2 name: ma_RK4
+## Function_2  ma_RK4
 ----
 **Code Author:** Anjali Rawat
 
@@ -103,7 +103,7 @@ v_rnew - new position vector (km)
 
 v_a, v_b, v_c, v_d, v1, v2, v3, v4- terms used in RK4 method (km/s^2)
 
-** Output:**
+**Output:**
 ----
 v_vnew- new velocity vector after small time h (km/s)
 
@@ -111,7 +111,7 @@ v_rnew- new position vector after small time h (km)
 
 
 ----
-## Function 3 name: RK_orbit_dynamics
+## Function 3 RK_orbit_dynamics
 ----
 
 **Code Author:** Anjali Rawat
@@ -153,7 +153,7 @@ v_a:(float)- containing (ax,ay,az) paramenters of the RK4 method (km/s^2)
 v_a- parameter of RK4 method to be used in propagator function
 
 ----
-## Function 4 name: ma_error_calc
+## Function 4 ma_error_calc
 ----
 
 **Code Author:** Anjali Rawat
@@ -190,10 +190,9 @@ reslt - percentage error of position/velocity
 
 [Link]https://www.eoas.ubc.ca/~mjelline/Planetary%20class/14gravity1_2.pdf
  
- 
- ----
- # Test cases:
- ----
+----
+# Test cases:
+----
  initial pos- [7000,0,0] km
  
  initial vel- [0,7.5461,0] km/s
@@ -207,8 +206,8 @@ reslt - percentage error of position/velocity
   |                             |error in position|
   |                             |error in velocity|
   
- **Test case 1:**
- ----
+**Test case 1:**
+----
   |**Input**     |**Output**                |
   |--------------|--------------------------|
   |1             |[7000.0, -19.0, 0]  |
@@ -216,9 +215,8 @@ reslt - percentage error of position/velocity
   |              |0.2713%                   |
   |              |0.2713%                   |
   
-  
-  **Test case 2:**
-  ----
+**Test case 2:**
+----
   |**Input**     |**Output**                |
   |--------------|--------------------------|
   |3             |[6999.7, -64.5, 0]  |
@@ -235,7 +233,7 @@ reslt - percentage error of position/velocity
   |              |1.5721%                 |
   |              |1.5721%                 |
   
-  **Test case 4:**
+**Test case 4:**
 ----
   |**Input**     |**Output**                |
   |--------------|--------------------------|
@@ -244,8 +242,8 @@ reslt - percentage error of position/velocity
   |              |3.1440%                 |
   |              |3.1440%                  |
   
-  **Test case 5:**
- ----
+**Test case 5:**
+----
   |**Input**     |**Output**                 |
   |--------------|---------------------------|
   |1             |[7000.0, -22.0, 0]    |
@@ -253,8 +251,8 @@ reslt - percentage error of position/velocity
   |              |0.3144%                    |
   |              |0.3144%                    |
   
-  **Test case 6:**
- ----
+**Test case 6:**
+----
   |**Input**     |**Output**                 |
   |--------------|---------------------------|
   |1             |[7000.0, -22.2, 0]    |
